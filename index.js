@@ -1,29 +1,18 @@
 import React, { Component, PropTypes } from 'react';
-import { bylineToString, getLocalLink } from 'utils/NewsUtils';
-import { COLOR_STYLE } from 'constants/FRNBaseStyles';
-import Video from 'components/media/Video';
-import AdvertisementUnit from 'components/AdvertisementUnit';
-import { Button } from 'antd';
-class RandomTest extends Component {
-  static PropTypes = {
-    h1: PropTypes.string,
-    h2: PropTypes.string,
-  }
+import ModuleDemo from 'qafrankly/FranklyModulesDemo';
+
+class ModuleCrossDemo extends Component {
+
   render(){
-    let {
-      h2 = 'heba is testing here',
-    } = this.props;
-
-    let {
-      flux, config
-    } = this.context;
-
+	  
     return (
-      <div>
-        <h2>{h2}</h2>
+      <div className='FranklyModulesCrossDemo'>
+	    test2:<br/>
+	    <ModuleDemo text="test"></ModuleDemo>
       </div>
     );
+	  
   }
 }
 
-export default RandomTest;
+export default ModuleCrossDemo;
