@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react';
 import WEB1484prodchild from './WEB1484prodchild';
 
-class ModuleDemo extends Component {
+class ModuleCrossDemo extends Component {
 
   render(){
 	 
