@@ -1,5 +1,5 @@
 import React, { Component, PropTypes } from 'react';
-import ModuleDemo from './WEB1484prodchild';
+import ModuleDemo from './WEB1484prodchild.js';
 
 class ModuleCrossDemo extends Component {
 
