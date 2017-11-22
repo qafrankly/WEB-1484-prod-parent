@@ -6,11 +6,11 @@ class ModuleCrossDemo extends Component {
   render(){
 	  
     return (
-      <div className='FranklyModulesCrossDemo'>
-	    test2:<br/>
-	    <ModuleDemo text="test parent"></ModuleDemo>
+      <div>
+        <h2>test Parent here</h2>
+	<h2>testing the first repo</h2>
       </div>
-    );
+	    );
 	  
   }
 }
